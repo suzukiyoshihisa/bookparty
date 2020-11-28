@@ -223,6 +223,7 @@ const HomePosts = css`
     .post-card-large .post-card-title {
       margin-top: 0;
       font-size: 3.2rem;
+      color: #000;
     }
 
     .post-card-large:not(.no-image) .post-card-header {
