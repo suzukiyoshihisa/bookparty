@@ -103,7 +103,7 @@ const IndexPage: React.FC<IndexProps> = props => {
               <SiteTitle className="site-title">
                 {props.data.logo ? (
                   <img
-                    style={{ maxHeight: '55px' }}
+                    style={{ maxHeight: '8vh' }}
                     src={props.data.logo.childImageSharp.fixed.src}
                     alt={config.title}
                   />
@@ -223,6 +223,7 @@ const HomePosts = css`
     .post-card-large .post-card-title {
       margin-top: 0;
       font-size: 3.2rem;
+      color: #000;
     }
 
     .post-card-large:not(.no-image) .post-card-header {
